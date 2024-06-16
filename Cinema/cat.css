@@ -1,0 +1,70 @@
+body{
+    background-color:white;
+}
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:midnightblue;
+}
+
+.produto {
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    background-color:white;
+}
+
+.produto h2 {
+    margin-top: 0;
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+    max-height: 260px;
+    object-fit: cover;
+}
+
+.produto a {
+    display: block;
+    background-color: midnightblue;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.produto a:hover {
+    background-color: blue;
+}
+.h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    background-color: midnightblue;
+    padding: 30px;
+}
+.navbar {
+    background-color: midnightblue; 
+    color: white;
+    padding: 10px;
+    text-align: center; 
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px; 
+}
+.navbar h1 {
+    margin: 0;
+}

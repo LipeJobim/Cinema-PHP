@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: midnightblue;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+
+.filme-detalhes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color:white;
+    width: 50%;
+    margin: 20px auto;
+}
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.filme-detalhes img {
+    width: 60%;
+    margin-bottom: 20px; 
+    border: 2px solid #ddd; 
+    border-radius: 10px;
+}
+

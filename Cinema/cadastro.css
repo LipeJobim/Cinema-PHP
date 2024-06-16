@@ -1,0 +1,74 @@
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:midnightblue	;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .box{
+            color: white;   
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 15px;
+            border-radius: 15px;
+            width: 80%;
+            height: auto;
+            max-width: 350px;
+            margin: 15px;
+        }
+        fieldset{
+            border: 3px solid white;
+        }
+        legend{
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+            background-color:midnightblue;
+            border-radius: 5px;         
+        }
+        .inputbox{
+            position: relative;
+        }
+        .inputUser{
+            background: none;
+            border: none;
+            border-bottom: 1px solid white;
+            outline: none;
+            color: white;
+            font-size: 15px;
+            width: 100%; 
+            letter-spacing: 2px;
+            
+        }
+        .labelinput{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            pointer-events: none;
+            transition: .5s;
+        }
+        .inputUser:focus ~ .labelinput,
+        .inputUser:valid ~.labelinput{
+            top: -20px;
+            font-size: 12px;
+            color: white;
+        }
+
+        #submit{
+            background-color:midnightblue;
+            width: 100%;
+            border: none;
+            padding: 15px;
+            color: white;
+            font-size: 15px;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        #submit:hover{
+            background-color:purple;
+        }
+ 
